@@ -1,0 +1,6 @@
+In this Lab I first copied over my Lab 2 repo into this repository with git clone
+I then moved everything and organized it properly into my new repository. 
+I then created the directories src/main/java/c to store all of my pizza store files and src/test/java/c for my test. 
+I then created the pom.xml file using code from the man-example repo. I added on to this file added the Hamcrest dependency to pom.xml as well as exec-maven-plugin 
+  so that I could run my main file PIzzaRunner using mvn. 
+I then assured everything was working with the compile command ‘mvn clean compile’, I ran the test file with ‘mvn test’ and executed the main file with ‘mvn exec:java’
